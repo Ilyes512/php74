@@ -127,8 +127,8 @@ ARG UNIQUE_ID_FOR_CACHEFROM=builder
 ARG PHIVE_VERSION=0.15.2
 # Latest version of Composer: https://getcomposer.org/download
 ARG COMPOSER_VERSION=2.7.1
-# Latest version of Xdebug: https://github.com/xdebug/xdebug/tags or https://pecl.php.net/package/xdebug
-ARG XDEBUG_VERSION=3.3.1
+# Note that XDEBUG >3.2.0 is not compatible with PHP 7.4
+ARG XDEBUG_VERSION=3.1.6
 # Latest version of pcov: https://github.com/krakjoe/pcov/tags or https://pecl.php.net/package/pcov
 ARG PCOV_VERSION=1.0.11
 
